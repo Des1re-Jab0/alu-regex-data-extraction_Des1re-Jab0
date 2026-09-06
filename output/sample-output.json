@@ -1,0 +1,101 @@
+{
+  "emails": {
+    "valid_count": 7,
+    "masked_values": [
+      "a*********e@alueducation.com",
+      "a*************t@gmail.com",
+      "a************a@alueducation.com",
+      "m***********i@alumni.alueducation.com",
+      "s******n@si.alueducation.com",
+      "s************r@si.alueducation.com",
+      "j***********3@student.alueducation.com"
+    ],
+    "alu_addresses": [
+      {
+        "value": "a*********e@alueducation.com",
+        "category": "official"
+      },
+      {
+        "value": "a************a@alueducation.com",
+        "category": "official"
+      },
+      {
+        "value": "m***********i@alumni.alueducation.com",
+        "category": "alumni"
+      },
+      {
+        "value": "s******n@si.alueducation.com",
+        "category": "si"
+      },
+      {
+        "value": "s************r@si.alueducation.com",
+        "category": "si"
+      }
+    ]
+  },
+  "credit_cards": {
+    "valid_count": 3,
+    "masked_values": [
+      "************6467",
+      "************5100",
+      "***********8431"
+    ],
+    "rejected_candidate_count": 1,
+    "rejected_masked_values": [
+      "************1112"
+    ]
+  },
+  "urls": {
+    "valid_count": 2,
+    "values": [
+      "https://billing.alueducation.com/invoices/88215?ref=urgent&resend=true",
+      "http://status.alueducation.com/incidents"
+    ]
+  },
+  "phone_numbers": {
+    "valid_count": 1,
+    "values": [
+      "+250 788 123 456"
+    ]
+  },
+  "times": {
+    "count": 9,
+    "values": [
+      "09:12",
+      "10:47",
+      "11:03",
+      "9:00 AM",
+      "17:30",
+      "12:15",
+      "13:40",
+      "14:00",
+      "2:00 PM"
+    ]
+  },
+  "hashtags": {
+    "count": 3,
+    "values": [
+      "#ALULife",
+      "#SoftwareEngineering",
+      "#KigaliTech"
+    ]
+  },
+  "security": {
+    "input_treated_as_untrusted": true,
+    "input_size_limit_bytes": 1000000,
+    "sensitive_values_masked": true,
+    "credit_cards_checked_with_luhn": true,
+    "allowed_url_schemes": [
+      "http",
+      "https"
+    ],
+    "alu_domains_checked_by_exact_domain": true,
+    "hostile_lines_flagged": 3,
+    "hostile_line_previews": [
+      "raw_payload: \"'; DROP TABLE users; --\"",
+      "raw_payload_2: \"<script>document.locatio...",
+      "raw_payload_3: \"../../../../etc/passwd\""
+    ],
+    "note": "Regex extraction is not a complete security boundary. Downstream systems should still use parameterized queries, context-aware output encoding, authorization, and rate limits."
+  }
+}
