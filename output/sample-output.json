@@ -1,14 +1,13 @@
 {
   "emails": {
-    "valid_count": 7,
+    "valid_count": 6,
     "masked_values": [
       "a*********e@alueducation.com",
       "a*************t@gmail.com",
       "a************a@alueducation.com",
       "m***********i@alumni.alueducation.com",
       "s******n@si.alueducation.com",
-      "s************r@si.alueducation.com",
-      "j***********3@student.alueducation.com"
+      "s************r@si.alueducation.com"
     ],
     "alu_addresses": [
       {
@@ -96,6 +95,6 @@
       "raw_payload_2: \"<script>document.locatio...",
       "raw_payload_3: \"../../../../etc/passwd\""
     ],
-    "note": "Regex extraction is not a complete security boundary. Downstream systems should still use parameterized queries, context-aware output encoding, authorization, and rate limits."
+    "note": "."
   }
 }
